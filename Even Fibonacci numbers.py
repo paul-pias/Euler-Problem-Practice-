@@ -12,7 +12,7 @@ def fibonnaci(num):
     else :
         while count<num:
             x.insert(0,num1) # If given number is greater than 1 then insert the fibbonacci numbers into list of x
-            nth=num1+num2 
+            nth=num1+num2
             num1=num2
             num2=nth
             count +=1
